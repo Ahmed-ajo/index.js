@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.getElementById("navbar_links");
     const content = document.getElementById("main-content");
     const buttonColors = {}; // Leeres Objekt, um Button-Farben zu speichern; Record<> Stellt sicher, dass buttonColors nur Werte und Schlüssel vom Typen string haben kann.
+    console.log("Hello world");
     btn.addEventListener("click", (e) => __awaiter(void 0, void 0, void 0, function* () {
         e.preventDefault(); // Verhindert das neu laden der Seite, bevor die if Anweisung ausgeführt wurde. ; e ist der Name für das Event-Objekt.
         navTitle.textContent = siteName.value.trim().length > 20
